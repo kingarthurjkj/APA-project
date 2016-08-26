@@ -1,0 +1,29 @@
+.element-start{
+
+  margin:100px
+}
+.chart-card{
+
+  margin:30px;
+  padding:0;
+}
+.chart-canvas{
+  height: 130px;
+  width:130px;
+}
+
+@media screen and (max-width: 450px) {
+  .element-start{
+
+    margin:10px
+  }
+  .chart-card{
+
+    margin:2px;
+
+  }
+  .chart-canvas{
+    height: 130px;
+    width:140px;
+  }
+}
